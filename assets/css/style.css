@@ -128,7 +128,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 75px auto auto auto auto auto 0px;
-        grid-template-areas: 'top-left center-body center-body center-body center-body center-body center-bodyy'
+        grid-template-areas: 'top-left center-body center-body center-body center-body center-body center-body'
             'bottom-left center-body center-body center-body center-body center-body center-body'
             'bottom-left center-body center-body center-body center-body center-body center-body';
         gap: 5px;
@@ -236,7 +236,7 @@
     }
 
     .right-body {
-        display: none;
+        display: none !important;
     }
 
     .content-1 {
